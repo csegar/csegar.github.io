@@ -580,6 +580,15 @@ a.icon {
   padding-top: 14px;
 }
 
+/* vvv added by me to rotate images*/
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
 /* about section styles
 /* ========================================== */
 #about {
