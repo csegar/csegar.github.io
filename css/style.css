@@ -581,7 +581,7 @@ a.icon {
 }
 
 /* vvv added by me to rotate images*/
-.rotate90 {
+#single-project .rotate90 {
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
     -o-transform: rotate(90deg);
