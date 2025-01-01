@@ -87,6 +87,12 @@ img {
   max-width: 100%;
 }
 
+.img-wrap-left {
+  float: left; /* Positions the image to the left */
+  margin: 0 15px 15px 0; /* Adds spacing to the right and below the image */
+  max-width: 100%; /* Ensures the image doesn't exceed its container's width */
+  height: auto; /* Maintains the aspect ratio */
+}
 
 /* preloader styles
 /* ========================================== */
@@ -580,7 +586,7 @@ a.icon {
   padding-top: 14px;
 }
 
-/* vvv added by me to rotate images*/
+/* added to rotate images*/
 #single-project .rotate90 {
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
@@ -601,6 +607,12 @@ a.icon {
   padding-bottom: 32px;
 }
 
+#about .col-md-6 {
+  padding-top: 16px;
+  padding-bottom: 32px;
+  text-align: justify;
+}
+
 #about img {
   padding-bottom: 20px;
 }
@@ -608,6 +620,12 @@ a.icon {
 #about blockquote {
   letter-spacing: 2px;
   margin-top: 20px;
+}
+
+#about .text-wrap {
+  text-align: justify; 
+  width: 80%; 
+  line-height: 1.6; 
 }
 
 /* blog & single post section styles
@@ -767,6 +785,8 @@ a.icon {
 
 
 
+
+
 /* footer section styles
 /* ========================================== */
 footer {
@@ -855,7 +875,8 @@ footer {
   h1 {
     font-size: 1.3rem;
   }
-  h3 {
+  
+  h2 {
     font-size: 13px;
     letter-spacing: 3px;
   }
